@@ -19,7 +19,7 @@ let package = Package(
             dependencies: [],
             path: "Sources"),
         .testTarget(name: "DeviceXTests",
-                    dependencies: [],
+                    dependencies: ["DeviceX"],
                     path: "DeviceXTests")
     ]
 )
