@@ -398,7 +398,7 @@ public struct DeviceX {
             return identifier + String(UnicodeScalar(UInt8(value)))
         }
         
-        return Deviice(identifier: identifier)
+        return DeviceX(identifier: identifier)
     }
 }
 

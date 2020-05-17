@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
     :git => "https://github.com/prashantLalShrestha/DeviceX.git", :tag => spec.version.to_s
   }
   
-  spec.source_files = 'DeviceX/Sources/*.{swift}'
+  spec.source_files = 'DeviceX/**/*.{swift}'
   # spec.exclude_files = "CoreDeviceKit/Exclude"
 
   spec.swift_version = "4.0"
