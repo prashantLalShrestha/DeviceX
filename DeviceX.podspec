@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "DeviceX"
-  spec.version = "1.1.1"
+  spec.version = "1.1.2"
   spec.summary = "DeviceX is just a simple CoreFoundationKit utility Module"
 
   spec.description = <<-DESC
@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
     :git => "https://github.com/prashantLalShrestha/DeviceX.git", :tag => spec.version.to_s
   }
   
-  spec.source_files = 'DeviceX/Sources/*.{swift}'
+  spec.source_files = 'Sources/*.{swift}'
   # spec.exclude_files = "CoreDeviceKit/Exclude"
 
   spec.swift_version = "4.0"

@@ -10,7 +10,7 @@
 		8F8F705924715615001378F4 /* DeviceX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8F704F24715615001378F4 /* DeviceX.framework */; };
 		8F8F705E24715615001378F4 /* DeviceXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8F705D24715615001378F4 /* DeviceXTests.swift */; };
 		8F8F706024715615001378F4 /* DeviceX.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F8F705224715615001378F4 /* DeviceX.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F8F706B24715646001378F4 /* DeviceX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8F706A24715646001378F4 /* DeviceX.swift */; };
+		8F8F70CF24717C97001378F4 /* DeviceX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8F70CE24717C97001378F4 /* DeviceX.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,7 @@
 		8F8F705824715615001378F4 /* DeviceXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeviceXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F8F705D24715615001378F4 /* DeviceXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceXTests.swift; sourceTree = "<group>"; };
 		8F8F705F24715615001378F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8F8F706A24715646001378F4 /* DeviceX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceX.swift; sourceTree = "<group>"; };
+		8F8F70CE24717C97001378F4 /* DeviceX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceX.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 			children = (
 				8F8F705224715615001378F4 /* DeviceX.h */,
 				8F8F705324715615001378F4 /* Info.plist */,
-				8F8F70692471562B001378F4 /* Sources */,
+				8F8F70CD24717C97001378F4 /* Sources */,
 			);
 			path = DeviceX;
 			sourceTree = "<group>";
@@ -89,13 +89,13 @@
 			path = DeviceXTests;
 			sourceTree = "<group>";
 		};
-		8F8F70692471562B001378F4 /* Sources */ = {
+		8F8F70CD24717C97001378F4 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				8F8F706A24715646001378F4 /* DeviceX.swift */,
+				8F8F70CE24717C97001378F4 /* DeviceX.swift */,
 			);
 			path = Sources;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -228,7 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F8F706B24715646001378F4 /* DeviceX.swift in Sources */,
+				8F8F70CF24717C97001378F4 /* DeviceX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
