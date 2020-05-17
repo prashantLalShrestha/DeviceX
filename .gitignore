@@ -85,3 +85,16 @@ Carthage/Build.rbenv-vars
 ####
 # rbenv
 .rbenv-vars.DS_Store
+
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+.build/
+
+# Carthage
+.UlyssesRoot
+.Ulysses-Settings.plist
+.Ulysses-Group.plist
