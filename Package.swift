@@ -21,12 +21,11 @@ let package = Package(
         .target(
             name: "DeviceX",
             dependencies: [],
-            path: "DeviceX/Sources"
+            exclude: ["build", "Products"],
+            sources: ["DeviceX/Sources"]
         ),
         .testTarget(
             name: "DeviceXTests",
-            dependencies: ["DeviceX"],
-            path: "DeviceXTests"
-        ),
+            dependencies: ["DeviceX"]),
     ]
 )
