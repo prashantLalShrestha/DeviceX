@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   This module contains the utility class to identify the device type
                    DESC
 
-  spec.homepage = "https://cocoapods.org/pods/DeviceX"
+  spec.homepage = "https://github.com/prashantLalShrestha/DeviceX"
   # spec.screenshots = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
 
@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
     :git => "https://github.com/prashantLalShrestha/DeviceX.git", :tag => spec.version.to_s
   }
   
-  spec.source_files = 'DeviceX/**/*.{swift}'
+  spec.source_files = 'DeviceX/Sources/*.{swift}'
   # spec.exclude_files = "CoreDeviceKit/Exclude"
 
   spec.swift_version = "4.0"
