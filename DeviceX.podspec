@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "DeviceX"
-  spec.version = "1.0.0"
+  spec.version = "1.1.0"
   spec.summary = "DeviceX is just a simple CoreFoundationKit utility Module"
 
   spec.description = <<-DESC
