@@ -31,6 +31,13 @@ public enum DeviceType: String {
     case iPhone8            = "iPhone 8"
     case iPhone8Plus        = "iPhone 8 Plus"
     case iPhoneX            = "iPhone X"
+    case iPhoneXS           = "iPhone XS"
+    case iPhoneXSMax         = "iPhone XS Max"
+    case iPhoneXR           = "iPhone XR"
+    case iPhone11           = "iPhone 11"
+    case iPhone11Pro        = "iPhone 11 Pro"
+    case iPhone11ProMax     = "iPhone 11 Pro Max"
+    case iPhoneSE2          = "iPhone SE 2"
     case iPad2              = "iPad 2"
     case iPad3              = "iPad 3"
     case iPad4              = "iPad 4"
@@ -52,10 +59,13 @@ public enum DeviceSize: String {
     case screen4Dot7Inches      = "4,7 inches"
     case screen5Dot5Inches      = "5,5 inches"
     case screen5Dot8Inches      = "5,8 inches"
+    case screen6Dot1Inches      = "6,1 inches"
+    case screen6Dot5Inches      = "6,5 inches"
     case screen7Dot9Inches      = "7,9 inches"
     case screen9Dot7Inches      = "9,7 inches"
     case screen12Dot9Inches     = "12,9 inches"
     case screen10Dot5Inches     = "10,5 inches"
+    case screen11Inches         = "11 inches"
 }
 
 // The connectivity of the device
@@ -199,6 +209,48 @@ public struct DeviceX {
         case "iPhone10,3", "iPhone10,6":
             self.type = .iPhoneX
             self.size = .screen5Dot8Inches
+            self.connectivity = .wiFi4G
+            break
+
+        case "iPhone11,2":
+            self.type = .iPhoneXS
+            self.size = .screen5Dot8Inches
+            self.connectivity = .wiFi4G
+            break
+            
+        case "iPhone11,4", "iPhone11,6":
+            self.type = .iPhoneXSMax
+            self.size = .screen6Dot5Inches
+            self.connectivity = .wiFi4G
+            break
+            
+        case "iPhone11,8":
+            self.type = .iPhoneXR
+            self.size = .screen6Dot1Inches
+            self.connectivity = .wiFi4G
+            break
+            
+        case "iPhone12,1":
+            self.type = .iPhone11
+            self.size = .screen6Dot1Inches
+            self.connectivity = .wiFi4G
+            break
+            
+        case "iPhone12,3":
+            self.type = .iPhone11Pro
+            self.size = .screen5Dot8Inches
+            self.connectivity = .wiFi4G
+            break
+            
+        case "iPhone12,5":
+            self.type = .iPhone11ProMax
+            self.size = .screen6Dot5Inches
+            self.connectivity = .wiFi4G
+            break
+            
+        case "iPhone12,8":
+            self.type = .iPhoneSE2
+            self.size = .screen4Dot7Inches
             self.connectivity = .wiFi4G
             break
             
@@ -355,6 +407,16 @@ public struct DeviceX {
         case "iPad7,4":
             self.type = .iPadPro
             self.size = .screen10Dot5Inches
+            self.connectivity = .wiFi4G
+
+        case "iPad8,1", "iPad8,2", "iPad8,3", "iPad8,4":
+            self.type = .iPadPro
+            self.size = .screen11Inches
+            self.connectivity = .wiFi4G
+            
+        case "iPad8,5", "iPad8,6", "iPad8,7", "iPad8,8":
+            self.type = .iPadPro
+            self.size = .screen12Dot9Inches
             self.connectivity = .wiFi4G
             
         case "i386", "x86_64":
